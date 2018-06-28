@@ -1,0 +1,226 @@
+/*
+Theme Name: ficmjc
+Author: Vanessa, Ilham and Ruud
+Description: FICMJC is a theme template for integration of Wordpress functionality into the mobile app (site) project for the FIC.
+Version: 1.0
+Created Date: 11/04/2018
+Text Domain: ficmjc
+Tags: custom-site-layout
+*/
+
+
+
+
+
+/*================================= */
+/* 			HEADER					*/
+/*================================= */
+header {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+.img-responsive {
+    display: block;
+    margin: auto;
+    max-width : 20%;
+    height: auto;
+    margin-top: 0.5rem;
+}
+
+.menu a,
+.menu a:hover,
+.menu a:link, 
+.menu a:visited, 
+.menu a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu-menu-principal {
+    list-style: none;
+    text-align: center;
+}
+
+.wpcf7-form {
+	text-align: center;
+}
+
+.navbar-brand {
+    margin-left: 7rem;
+
+}
+.menu_header {
+    font-size: 2rem;
+    color:#fff;
+    font-weight: 800;
+}
+.menu_header a,
+.menu_header a:hover,
+.menu_header a:link, 
+.menu_header a:visited, 
+.menu_header a:active {
+    color: #fff;
+    text-decoration: none;
+}
+/*===================================*/
+/*              GOOGLE MAP
+/*===================================*/
+#my-map {
+    width: 100%;
+    height: 500px;
+    border: #ccc solid 1px;
+    margin: 20px 0;
+    background-color: #BAD3BA;
+}
+
+/* fixes potential theme css conflict */
+.acf-map img {
+   max-width: inherit;
+}
+
+/*======================================*/
+/*        PAGE ENSEMBLE ON FABRIQUE
+/*======================================*/
+.fabrique {
+    display: block;
+    margin:auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding:5px;
+    font-size:1.5em;
+    color:#fff;
+    border:2px solid #000;
+    width:40%;
+}
+
+.form_links a,
+.form_links a:hover,
+.form_links a:link, 
+.form_links a:visited, 
+.form_links a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fic_red {
+    background-color: #EB212E;
+}
+
+.fic_blue {
+    background-color:#0C50A0;
+}
+
+.fic_grey {
+    background-color: #E4E8E6;
+}
+
+/*################# ilham ###############*/
+
+
+#contenu {
+    margin-bottom: 10px;
+}
+
+
+
+/*============FOOTER=================*/
+
+.address {
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    border: 0;
+    border-right: 1px solid darkgrey;
+    border-left: 1px solid darkgrey;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.img-footer {
+    display: block;
+    margin: auto;
+    max-width : 15%;
+    height: auto;
+    margin-top: 0.5rem;
+}
+
+footer {
+    border-top: 3px solid #668894;
+    border-top: solid blue;
+    background-color: #cccccc;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+
+
+
+footer p{
+    text-align: center;
+    color: darkgrey;
+}
+
+
+
+
+
+/*****	fin footer    ******/
+
+
+/*################# ruud ################*/
+
+#my-map {
+    height: 500px;
+}
+
+body {
+    background-color: #E4E8E6;
+}
+main {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.img_google {
+    background-color: lightgreen;
+    display: block;
+    margin: auto;
+    max-width : 100%;
+    height: 50%;
+    max-height: 50%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+h2.screen-reader-text {
+    display: none;
+}
+
+.screen-reader-text {
+    display: none;
+}
+
+.listing-idee {
+     border: 2px solid #444;
+     margin-bottom: 2rem;
+   
+}
+.cadre {
+    /*background-color: rgba(255, 255, 255, 0.5);*/
+    background-color: #fff;
+    border-radius: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 3px 3px 12px #999;  
+    -moz-box-shadow: 3px 3px 12px #999;
+    -webkit-box-shadow: 3px 3px 12px #999;
+    
+}
+
+.little_text {
+    font-size: 0.8rem;
+}
